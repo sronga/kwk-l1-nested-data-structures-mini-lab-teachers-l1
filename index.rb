@@ -14,7 +14,6 @@ order.each do |eachitem|
     end
   end
     return false
-  end
 end
 
 # example city_info hash
