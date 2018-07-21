@@ -45,7 +45,7 @@ cities = {
 def city_populations(cities)
   totalPop = 0
   cities.each do |indivcity, icinfo|
-    totalPop += [icinfo][:population]
+    totalPop += [icinfo][:population].to_i
   end
   return totalPop
 end
