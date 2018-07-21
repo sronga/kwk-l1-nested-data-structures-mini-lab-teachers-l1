@@ -17,6 +17,7 @@ order.each do |eachitem|
   end
 end
 
+
 # example city_info hash
 cities = {
   :new_york => {
