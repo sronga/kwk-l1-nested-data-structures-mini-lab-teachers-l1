@@ -12,6 +12,7 @@ order.each do |eachitem|
   ingredients.each do |eachingred|
     if eachingred.include?(eachitem) return true
     end
+  end
     return false
   end
 end
