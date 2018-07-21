@@ -44,7 +44,7 @@ cities = {
 
 def city_populations(cities)
   totalPop = 0
-  cities.each do |indivcity|
-    puts [indivcity][:population]
+  cities.each do |indivcity, icinfo|
+    totalPop += [icinfo][:population]
   end
 end
